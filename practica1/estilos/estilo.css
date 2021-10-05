@@ -65,6 +65,7 @@ ul li {
 	font-family: Times, Helveltica, serif;
 	font-style: italic;
     	line-height: 1.5;
+	margin: auto;
 }
 
 ul li{
@@ -143,6 +144,7 @@ nav ul li{
     	text-align: center;
     	padding: 1.2em 2em;
     	box-shadow: 0.4em 0.2em 2ex;
+	margin: auto;
 }
 
 a:link {
