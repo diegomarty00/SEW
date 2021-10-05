@@ -45,18 +45,31 @@ html {
 
 body{
     	background: white;
-	opacity: 0.95;
-    	color: black;
-    	font-size: 1.3em;
-	font-family: Times, Helveltica, serif;
-	font-style: italic;
-    	line-height: 1.5;
+	opacity: 0.85;
     	margin: auto;
     	max-width: 70em;
     	padding: 2em 4em;
 }
+ 
+body p {
+	color: black;
+    	font-size: 1.4em;
+	font-family: Times, Helveltica, serif;
+	font-style: italic;
+    	line-height: 1.5;
+}
 
+ul li {
+	color: black;
+    	font-size: 1.4em;
+	font-family: Times, Helveltica, serif;
+	font-style: italic;
+    	line-height: 1.5;
+}
 
+body.background{
+	opacity: 0.95;
+}
 ul li{
 	font-style: normal;
 	display: block;
