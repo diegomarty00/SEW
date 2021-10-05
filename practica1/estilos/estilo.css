@@ -38,7 +38,7 @@ h2{
 }
 
 html {  
-    	background-image: url('./media/images/Fondo.jpg');
+    	background-image: url('../media/images/Fondo.jpg');
     	background-repeat: no-repeat;
     	background-attachment: fixed;
     	background-size: cover;	
@@ -75,21 +75,21 @@ footer{
 
 
 table { 
-    border: 0.2em solid black; 
+    	border: 0.2em solid black; 
 	margin: auto;
 }
 
 td, th {
-    border: 0.1em solid black; padding: 4px 10px;
-    text-align: left; 
+    	border: 0.1em solid black; padding: 4px 10px;
+    	text-align: left; 
 }
 
 
 figure img{
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  width:70%;
+ 	display:block;
+  	margin-left:auto;
+  	margin-right:auto;
+  	width:70%;
 }
 
 
@@ -107,7 +107,7 @@ p::first-letter{
 }
 
 .active {
-  background-color: #04AA6D;
+  	background-color: #04AA6D;
 }
 
 a:link {
