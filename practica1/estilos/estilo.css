@@ -1,0 +1,122 @@
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+h1,h2 {
+    	font-family: Helveltica, Verdana, sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	/*background-image : linear-gradient(360deg, #ffff99 0%, #46bf40 200%);*/
+	text-align:center;
+}
+
+video{
+  	max-width: 100%;
+  	height: auto;
+	display:block;
+	margin: auto;	
+}
+
+audio{
+	max-width: 100%;
+  	height: auto;	
+}
+
+image{
+	width: 100%;
+	max-width: 100%;
+  	height: auto;	
+}
+
+h1{
+	font-size: 2.5em;
+	padding: 0.2em;
+	color: #242424;
+}
+
+h2{
+	font-size: 1.7em;
+	padding-bottom: 0.2em
+}
+
+html {  
+    	background-image: url('./media/images/Fondo.jpg');
+    	background-repeat: no-repeat;
+    	background-attachment: fixed;
+    	background-size: cover;	
+}
+
+body{
+    	background-image: linear-gradient(360deg, #46bf40 0%, #1f59e0 200%);
+	opacity: 0.5;
+    	color: black;
+    	font-size: 1.3em;
+	font-family: Times, Helveltica, serif;
+	font-style: italic;
+    	line-height: 1.5;
+    	margin: auto;
+    	max-width: 70em;
+    	padding: 2em 4em;
+}
+
+
+ul li{
+	font-style: normal;
+	display: block;
+    	color: black;
+    	text-align: center;
+    	padding: 1.2em 2em;
+    	box-shadow: 0.4em 0.2em 2ex;
+}
+
+
+footer{
+    	padding-top: 0.3em;
+    	text-align: center;
+}
+
+
+table { 
+    border: 0.2em solid black; 
+	margin: auto;
+}
+
+td, th {
+    border: 0.1em solid black; padding: 4px 10px;
+    text-align: left; 
+}
+
+
+figure img{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:70%;
+}
+
+
+figure figcaption {
+	padding-top: 0.3em;
+    	text-align: center;
+	font-size: 1.2em;
+}
+
+p::first-letter{
+	float:left;
+	padding-right: 0.3em;
+	line-height: 1em;
+	font-size: 2.5em;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+a:link {
+	color: blue;
+}
+
+a:visited {
+	color:purple;
+}
+
+
+/*
