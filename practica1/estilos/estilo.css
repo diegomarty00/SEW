@@ -14,8 +14,7 @@ video{
 }
 
 audio{
-	max-width: 100%;
-  	height: auto;	
+	max-width: 100%;	
 }
 
 image{
@@ -114,6 +113,7 @@ figure figcaption {
 }
 
 nav {
+	opacity: 0.9;
 	list-style-type: none;
   	margin: 0;
   	padding: 0;
@@ -142,8 +142,6 @@ nav ul li{
 	display: block;
     	text-align: center;
     	padding: 1.2em 2em;
-    	box-shadow: 0.4em 0.2em 2ex;
-	margin: auto;
 }
 
 a:link {
