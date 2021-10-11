@@ -43,66 +43,71 @@ h2{
 
 /*Especifidad: 1 -> a = 0 b = 0 c = 1*/
 html {  
-    	background-image: url('../media/images/Fondo.jpg');
-    	background-repeat: no-repeat;
-    	background-attachment: fixed;
-    	background-size: cover;	
+    background-image: url('../media/images/Fondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;	
 }
 
-/*Especifidad: 2 -> a = 0 b = 0 c = 1*/
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
 body{
-    	background: white;
-		opacity: 0.85;
-    	margin: auto;
-    	max-width: 70em;
-    	padding: 2em 4em;
+    background: white;
+	opacity: 0.85;
+    margin: auto;
+    max-width: 70em;
+    padding: 2em 4em;
 }
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 2*/
+body nav{
+	opacity: 1;
+} 
  
 /*Especifidad: 1 -> a = 0 b = 0 c = 2*/
 body p {
 	color: black;
-    	font-size: 1.4em;
+    font-size: 1.4em;
 	font-family: Times, Helveltica, serif;
 	font-style: italic;
-    	line-height: 1.5;
+    line-height: 1.5;
 }
 
 /*Especifidad: 1 -> a = 0 b = 0 c = 2*/
 ul li{
 	font-style: normal;
 	display: block;
-    	color: black;
-    	text-align: center;
-    	padding: 1.2em 2em;
-    	font-size: 1.4em;
+    color: black;
+    text-align: center;
+    padding: 1.2em 2em;
+    font-size: 1.4em;
 	font-family: Times, Helveltica, serif;
 	font-style: italic;
-    	line-height: 1.5;
+    line-height: 1.5;
 	margin: auto;
 }
 
 /*Especifidad: 1 -> a = 0 b = 0 c = 1*/
 footer{
-    	padding-top: 0.3em;
-    	text-align: center;
+    padding-top: 0.3em;
+    text-align: center;
 }
 
 /*Especifidad: 1 -> a = 0 b = 0 c = 1*/
 table { 
-    	border: 0.2em solid black; 
+    border: 0.2em solid black; 
 	margin: auto;
 }
 
 /*Especifidad: 2 -> a = 0 b = 0 c = 1*/
 td, th {
-    	border: 0.1em solid black; 
+    border: 0.1em solid black; 
 	padding: 4px 10px;
-    	text-align: left;
+    text-align: left;
 	color: black;
-    	font-size: 1.4em;
+    font-size: 1.4em;
 	font-family: Times, Helveltica, serif;
 	font-style: italic;
-    	line-height: 1.5; 
+    line-height: 1.5; 
 }
 /*Especifidad: 1 -> a = 0 b = 0 c = 1*/
 td {
@@ -120,7 +125,7 @@ figure img{
 /*Especifidad: 1 -> a = 0 b = 0 c = 2*/
 figure figcaption {
 	padding-top: 0.3em;
-    	text-align: center;
+    text-align: center;
 	font-size: 1.2em;
 }
 
