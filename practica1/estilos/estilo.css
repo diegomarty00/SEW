@@ -49,7 +49,7 @@ html {
     background-size: cover;	
 }
 
-/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+/*Especifidad: 2 -> a = 0 b = 0 c = 1*/
 body{
     background: white;
 	opacity: 0.85;
@@ -61,6 +61,7 @@ body{
 /*Especifidad: 1 -> a = 0 b = 0 c = 2*/
 body nav{
 	opacity: 1;
+	background-color: #333;
 } 
  
 /*Especifidad: 1 -> a = 0 b = 0 c = 2*/
@@ -72,19 +73,6 @@ body p {
     line-height: 1.5;
 }
 
-/*Especifidad: 1 -> a = 0 b = 0 c = 2*/
-ul li{
-	font-style: normal;
-	display: block;
-    color: black;
-    text-align: center;
-    padding: 1.2em 2em;
-    font-size: 1.4em;
-	font-family: Times, Helveltica, serif;
-	font-style: italic;
-    line-height: 1.5;
-	margin: auto;
-}
 
 /*Especifidad: 1 -> a = 0 b = 0 c = 1*/
 footer{
@@ -131,9 +119,8 @@ figure figcaption {
 
 /*Especifidad: 1 -> a = 0 b = 0 c = 1*/
 nav {
-	opacity: 1;
 	list-style-type: none;
-  	margin: 0;
+  	margin: auto;
   	padding: 0;
   	overflow: hidden;
   	background-color: #333;
@@ -162,9 +149,13 @@ nav a:hover:not(.active) {
 /*Especifidad: 1 -> a = 0 b = 0 c = 3*/
 nav ul li{
 	font-style: italic;
-	display: block;
-    	text-align: center;
-    	padding: 1.2em 2em;
+	display: inline-table;
+    text-align: center;
+    padding: 1.2em 2em;
+	line-height: 1.5;
+	font-size: 1.4em;
+	font-family: Times, Helveltica, serif;
+	margin: auto;
 }
 
 /*Especifidad: 1 -> a = 0 b = 1 c = 4*/
