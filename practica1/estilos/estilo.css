@@ -149,6 +149,29 @@ nav a:hover:not(.active) {
   	background-color: #8b4abf;;
 }
 
+dl {
+	display: table;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 2*/
+dl dd{
+	color: black;
+    font-size: 1.4em;
+	font-family: Times, Helveltica, serif;
+	font-style: italic;
+    line-height: 1.5;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 2*/
+dl dt{
+	font-size: 1.4em;
+	font-weight: bold;
+}
+
 /*Especifidad: 1 -> a = 0 b = 0 c = 3*/
 nav ul li{
 	font-style: italic;
