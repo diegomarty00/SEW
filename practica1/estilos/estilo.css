@@ -175,7 +175,7 @@ dl dt{
 /*Especifidad: 1 -> a = 0 b = 0 c = 3*/
 nav ul li{
 	font-style: italic;
-	display: inline-table;
+	display: table;
     text-align: center;
     padding: 1.2em 2em;
 	line-height: 1.5;
