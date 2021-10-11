@@ -52,7 +52,7 @@ html {
 /*Especifidad: 2 -> a = 0 b = 0 c = 1*/
 body{
     	background: white;
-	opacity: 0.85;
+		opacity: 0.85;
     	margin: auto;
     	max-width: 70em;
     	padding: 2em 4em;
@@ -162,13 +162,13 @@ nav ul li{
     	padding: 1.2em 2em;
 }
 
-/*Especifidad: 1 -> a = 0 b = 1 c = 1*/
-a:link {
+/*Especifidad: 1 -> a = 0 b = 1 c = 4*/
+nav ul li a:link {
 	color: blue;
 }
 
-/*Especifidad: 1 -> a = 0 b = 1 c = 1*/
-a:visited {
+/*Especifidad: 1 -> a = 0 b = 1 c = 4*/
+nav ul li a:visited {
 	color:purple;
 }
 
