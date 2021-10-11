@@ -52,7 +52,7 @@ html {
 /*Especifidad: 2 -> a = 0 b = 0 c = 1*/
 body{
     background: white;
-	opacity: 0.85;
+	opacity: 1;
     margin: auto;
     max-width: 70em;
     padding: 2em 4em;
@@ -60,8 +60,10 @@ body{
 
 /*Especifidad: 1 -> a = 0 b = 0 c = 2*/
 body nav{
-	opacity: 1;
 	background-color: #333;
+	font-size: 1.3em;
+	font-family: Times, Helveltica, serif;
+	font-style: italic;
 } 
  
 /*Especifidad: 1 -> a = 0 b = 0 c = 2*/
@@ -123,7 +125,7 @@ figure figcaption {
 /*Especifidad: 1 -> a = 0 b = 0 c = 1*/
 nav {
 	list-style-type: none;
-  	margin: auto;
+  	margin: 0;
   	padding: 0;
   	overflow: hidden;
   	background-color: #333;
@@ -172,16 +174,17 @@ dl dt{
 	font-weight: bold;
 }
 
-/*Especifidad: 1 -> a = 0 b = 0 c = 3*/
-nav ul li{
+/*Especifidad: 1 -> a = 0 b = 0 c = 4*/
+body nav ul li{
 	font-style: italic;
 	display: table;
     text-align: center;
-    padding: 1.2em 2em;
-	line-height: 1.5;
-	font-size: 1.4em;
+    padding: 0.3em;
+	line-height: 0;
+	font-size: 1.2em;
 	font-family: Times, Helveltica, serif;
 	margin: auto;
+	
 }
 
 /*Especifidad: 1 -> a = 0 b = 1 c = 4*/
