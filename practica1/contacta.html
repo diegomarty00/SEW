@@ -5,7 +5,7 @@
     	<!-- Datos que describen el documento -->
    	<meta charset="UTF-8" />
 	<meta name = "author" content = "Diego Marty"/>
-    	<title>Steve Jobs - Reconocimientos</title>
+    	<title>Steve Jobs - Contacta</title>
     	<link rel="stylesheet" type="text/css" href="estilos/estilo.css" />
     	<meta name = "description" content = "Página donde se recopilan los reconocimientos más destados de Steve Jobs"/>
     	<meta name = "keywords" content="informática, apple, iphone, steve jobs, uniovi" />
@@ -14,7 +14,7 @@
 <body>
     <!-- Datos con el contenidos que aparece en el navegador -->
    	<header>
-		<h1>Steve Jobs  </h1>
+		<h1>Steve Jobs </h1>
    	</header>
     
 
@@ -28,20 +28,60 @@
 
 	<section>
         <header>
-		            <h2>Sus reconocimientos</h2>
-		    </header>
+		    <h2>Formulario de contacto</h2>
+		</header>
     
-        <ul>
-            		<li> En 1985, condecorado con la Medalla Nacional de Tecnología por el presidente estadounidense Ronald Reagan. </li>
-            		<li> En 2004, Premio al Visionario en los Premios Billboard de Entretenimiento Digital. </li>
-			          <li> El 27 de noviembre de 2007 fue nombrado la persona más poderosa del mundo de los negocios por la revista Fortune. </li>
-            		<li> El 5 de diciembre de 2007 el entonces gobernador de California, Arnold Schwarzenegger, le incluyó en el Salón de la Fama de California, en el Museo de California de Historia, la Mujer y las Artes. </li>
-        	      <li> En octubre de 2009 fue elegido "Empresario de la Década" por la revista Fortune. </li>
-                <li> En diciembre de 2009 fue elegido director ejecutivo del año por la revista Harvard Business 
-			Review por incrementar en 150 000 millones el valor en bolsa de Apple en los últimos 12 años. </li>
-    </ul>          
+        <p> Escríbenos y en breve los pondremos en contacto contigo </p>        
     
-    <video src="media/video/No_Te_Rindas.mp4" controls preload="auto" title="Discurso más emotivo de Steve Jobs"></video>
+		<form action="submeter-formulario.php" method="post">				
+
+			<p>
+				<label for="nombre" class="colocar_nombre">Nombre
+					<span class="obligatorio">*</span>
+				</label>
+				<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+			</p>
+							
+			<p>
+				<label for="email" class="colocar_email">Email
+					<span class="obligatorio">*</span>
+				</label>
+				<input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+			</p>
+						
+			<p>
+				<label for="telefone" class="colocar_telefono">Teléfono
+				</label>
+				<input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+			</p>		
+							
+			<p>
+				<label for="website" class="colocar_website">Sitio web
+				</label>
+				<input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+			</p>		
+							
+			<p>
+				<label for="asunto" class="colocar_asunto">Asunto
+					<span class="obligatorio">*</span>
+				</label>
+				<input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+			</p>		
+							
+			<p>
+				<label for="mensaje" class="colocar_mensaje">Mensaje
+					<span class="obligatorio">*</span>
+				</label>                     
+                <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+            </p>	  								
+							
+			<button type="reset" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+			<p class="aviso">
+				<span class="obligatorio"> * </span>los campos son obligatorios.
+			</p>					
+						
+		</form>
     
 	</section>
     
