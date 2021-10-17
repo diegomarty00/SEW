@@ -217,7 +217,7 @@ label{
 
 input{
 	background-color: #fbfbfb; 
-	width: 408px; 
+	width: 50vw; 
 	height: 40px; 
 	border-radius: 5px;  
 	border-style: solid; 
@@ -230,7 +230,7 @@ input{
 
 textarea{
   	background-color: #fbfbfb; 
-	width: 405px; 
+	width: 50vw; 
 	height: 150px; 
 	border-radius: 5px;  
 	border-style: solid; 
