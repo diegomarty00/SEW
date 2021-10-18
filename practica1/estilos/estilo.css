@@ -251,3 +251,37 @@ fieldset{
 	font-family: Times, Helveltica, serif;
 	border-color: #8b4abf;
 }
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 2*/
+table caption{
+	font-family: Helveltica, Verdana, sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	text-align:center;
+	padding-top: 0.8em;
+	padding-bottom: 0.3em;
+	color: #8b4abf;
+	font-size: 1.2em;
+	text-decoration: underline
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+table {
+	border-radius: 5px;
+	background-color: #BB88DD;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 3*/
+table tr th {
+	text-align:center;
+	color: white;
+	font-size: 1.3em;
+	border-radius: 5px;
+	background-color: #8b4abf;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 3*/
+table tr td{
+	border-radius: 5px;
+	background-color: white;
+}
