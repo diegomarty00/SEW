@@ -1,6 +1,14 @@
 class Mapa {
     constructor() {}
 	
+	initMap() {
+        var centro = {lat: 43.593101, lng: -1.904143};
+        this.map = new google.maps.Map(document.getElementById('mapa'),{
+        zoom: 6.8,
+        center:centro
+        });
+    }
+	
 	cargar(files) {
         this.archivo = files[0];
         var reader = new FileReader();
@@ -28,15 +36,16 @@ class Mapa {
             coordenadas.push(domCoord[i].innerHTML.trim() + "+" + domName[i].innerHTML.trim());
         }
         this.datos = coordenadas;
-        this.initMap();
+        this.ejeMap();
     }
 
-    initMap() {
+    ejeMap() {
 		
-        var centro = {lat: 43.593101, lng: -1.904143};
+       var centro = {lat: 43.593101, lng: -1.904143};
         
         var map = new google.maps.Map(document.getElementById('mapa') , { zoom: 6.8, center: centro});
 		var marker;
+
 
 		this.datos.forEach(function (coordenadas) {
 		
@@ -52,6 +61,8 @@ class Mapa {
 			});
         })
     } 
+	
+	
 }
 var mapa = new Mapa()
 
