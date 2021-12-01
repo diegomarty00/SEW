@@ -8,7 +8,6 @@ h1{
 .pantalla{
     margin: auto;
     display: block;
-    border-radius: 0.5em;
     background: lightgreen;
     height: 6em;
 	width: 13em;
@@ -33,7 +32,7 @@ form{
 	text-align:center;
 	padding-top: 0.3em;
 	padding-bottom: 0.3em;
-	margi: 10em;
+	margin: 10em;
 	
 	
 }
@@ -81,6 +80,7 @@ body{
 	background-color: #D07C47;	
 }
 
+/*Especifidad: 11 -> a = 0 b = 1 c = 1*/
 input[type = text]{	
 	margin: auto;
 	padding-top: 0.3em;
