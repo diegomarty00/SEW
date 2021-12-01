@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Diego">
+    <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css" />
+    <script src = "CalculadoraBasica.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora básica</h1>
+    </header>
+    
+    <section class="calculadora">
+		<section class="pantalla">
+			<form><input type = "text" class="pan" id = "operacion" ></input></form>
+			<form><input type = "text" class="pan" id = "valor"></input></form>
+		</section>
+		
+        <form>
+            <input type="button" class="mem" id="botonMRC" value="mrc" onclick= "calculadora.botonMRC()"/>
+            <input type="button" class="mem" id="botonM+" value="m-" onclick= "calculadora.botonMMinus()"/>
+            <input type="button" class="mem" id="botonM-" value="m+" onclick= "calculadora.botonMPlus()"/>         
+            <input type="button" class="operator" id="botonDiv" value="/" onclick= "calculadora.botonDiv()"/>
+        </form>
+
+        <form>
+            <input type="button" class="botones" id="boton7" value="7" onclick= "calculadora.botonNumber(7)"/>
+            <input type="button" class="botones" id="boton8" value="8" onclick= "calculadora.botonNumber(8)"/>
+            <input type="button" class="botones" id="boton9" value="9" onclick= "calculadora.botonNumber(9)"/>
+            <input type="button" class="operator" id="botonMult" value="*" onclick= "calculadora.botonMult()"/>
+        </form>
+
+        <form>
+            <input type="button" class="botones" id="boton4" value="4" onclick= "calculadora.botonNumber(4)"/>
+            <input type="button" class="botones" id="boton5" value="5" onclick= "calculadora.botonNumber(5)"/>
+            <input type="button" class="botones" id="boton6" value="6" onclick= "calculadora.botonNumber(6)"/>
+            <input type="button" class="operator" id="botonRestar" value="-" onclick= "calculadora.botonRestar()"/>
+        </form>
+
+        <form>
+            <input type="button" class="botones" id="boton1" value="1" onclick= "calculadora.botonNumber(1)"/>
+            <input type="button" class="botones" id="boton2" value="2" onclick= "calculadora.botonNumber(2)"/>
+            <input type="button" class="botones" id="boton3" value="3" onclick= "calculadora.botonNumber(3)"/>
+            <input type="button" class="operator" id="botonSumar" value="+" onclick= "calculadora.botonSumar()"/>
+        </form>
+
+        <form>
+            <input type="button" class="botones" id="boton0" value="0" onclick= "calculadora.botonNumber(0)"/>
+            <input type="button" class="botones" id="botonDecimal" value="." onclick= "calculadora.botonDecimal()"/>
+            <input type="button" class="botones" id="botonLimpiar" value="C" onclick= "calculadora.botonLimpiar()"/>
+            <input type="button" class="ans" id="botonIgual" value="=" onclick= "calculadora.botonIgual()"/>
+        </form>
+    </section>
+</body>
+
+</html>

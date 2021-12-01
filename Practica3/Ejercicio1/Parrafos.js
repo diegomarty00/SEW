@@ -1,0 +1,2 @@
+// Parrafos.js
+asignatura.escribirParrafos();

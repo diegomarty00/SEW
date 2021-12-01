@@ -1,0 +1,252 @@
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+h1,h2 {
+    font-family: Helveltica, Verdana, sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	text-align:center;
+	padding: 0.2em;
+	color: #8b4abf;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+h1{
+	font-size: 2.5em;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+h2{
+	font-size: 1.7em;
+}
+
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+body{
+    background: white;
+	opacity: 1;
+    margin: auto;
+    max-width: 70em;
+    padding: 2em 4em;
+}
+
+/*Especifidad: 2 -> a = 0 b = 0 c = 2*/
+body nav{
+	background-color: #333;
+	font-family: Times, Helveltica, serif;
+} 
+ 
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+p {
+	color: black;
+    font-size: 1em;
+	font-family: Times, Helveltica, serif;
+    line-height: 1.5;
+	text-align: center;
+}
+
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+footer{
+    padding-top: 0.3em;
+    text-align: center;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+table { 
+    border: 0.2em solid black; 
+	margin: auto;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+td, th {
+    border: 0.1em solid black; 
+	padding: 4px 10px;
+    text-align: left;
+	color: black;
+    font-size: 1em; 
+	font-family: Times, Helveltica, serif;
+    line-height: 1.5; 
+}
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+td {
+	font-weight: bold;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+nav {
+	list-style-type: none;
+  	margin: 0.3em;
+  	padding: 0.3em;
+  	overflow: hidden;
+  	text-align:center;
+}
+
+/*Especifidad: 2 -> a = 0 b = 0 c = 2*/
+nav a {
+  	display: inline-block;
+ 	float:center;
+  	color: white;
+  	padding: 0.8em 1em;
+  	text-decoration: none;
+	font-size: 1.3em;
+	text-align:center;
+}
+
+/*Especifidad: 22 -> a = 0 b = 2 c = 2*/
+nav a:hover:not(.active) {
+  	background-color: #111;
+}
+
+/*Especifidad: 10 -> a = 0 b = 1 c = 0*/
+.active {
+  	background-color: #8b4abf;
+	text-align:center;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+ul {
+	color: black;
+    font-size: 1em; 
+	font-family: Times, Helveltica, serif;
+    line-height: 1.5;
+	margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+dl {
+	display: table;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/*Especifidad: 2 -> a = 0 b = 0 c = 2*/
+dl dd{
+	color: black;
+    font-size: 1em; 
+	font-family: Times, Helveltica, serif;
+    line-height: 1.5;
+}
+
+/*Especifidad: 2 -> a = 0 b = 0 c = 2*/
+dl dt{
+	font-size: 1em; 
+	font-weight: bold;
+}
+
+/*Especifidad: 4 -> a = 0 b = 0 c = 4*/
+body nav ul li{
+	display: table;
+    text-align: center;
+    padding: 0.2em;
+	line-height: 0;
+	font-size: 0.8em;
+	font-family: Times, Helveltica, serif;
+	margin: auto;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+a{
+	text-decoration: underline;
+	font-size: 1vw;
+	text-align: center;
+}
+
+/*Especifidad: 14 -> a = 0 b = 1 c = 4*/
+nav ul li a:link {
+	color: white;
+}
+
+/*Especifidad: 14 -> a = 0 b = 1 c = 4*/
+nav ul li a:visited {
+	color: #BB88DD;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+span{
+	color: #ab4493; 
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+label{
+  	display: block; 
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+input{
+	background-color: #fbfbfb; 
+	width: 50vw; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #8b4abf;
+	margin-top: 10px;  
+	padding-left: 10px;
+  	margin-bottom: 20px; 
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+textarea{
+  	background-color: #fbfbfb; 
+	width: 50vw; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #8b4abf;
+	margin-top: 10px;  
+	padding-left: 10px;
+  	margin-bottom: 20px; 
+  	padding-top: 15px; 
+}
+
+/*Especifidad: 10 -> a = 0 b = 1 c = 0*/
+.aviso{
+	font-size: 1em;  
+	color: #0e0e0e;  
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+fieldset{
+	font-size: 1.1em;
+	font-family: Times, Helveltica, serif;
+	border-color: #8b4abf;
+}
+
+/*Especifidad: 2 -> a = 0 b = 0 c = 2*/
+table caption{
+	font-family: Helveltica, Verdana, sans-serif;
+	font-weight: bold;
+	font-style: normal;
+	text-align:center;
+	padding-top: 0.8em;
+	padding-bottom: 0.3em;
+	color: black;
+	font-size: 1.3em;
+	text-decoration: underline
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+table {
+	border-radius: 5px;
+	background-color: #BB88DD;
+	text-align:center;
+}
+
+/*Especifidad: 3 -> a = 0 b = 0 c = 3*/
+table tr th {
+	text-align:center;
+	color: white;
+	font-size: 1.3em;
+	border-radius: 5px;
+	background-color: #8b4abf;
+}
+
+/*Especifidad: 3 -> a = 0 b = 0 c = 3*/
+table tr td{
+	border-radius: 5px;
+	background-color: white;
+	text-align:center;
+}

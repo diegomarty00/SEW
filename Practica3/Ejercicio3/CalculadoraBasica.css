@@ -1,0 +1,95 @@
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+h1{
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Especifidad: 100 -> a = 1 b = 0 c = 0*/
+.pantalla{
+    margin: auto;
+    display: block;
+    border-radius: 0.5em;
+    background: lightgreen;
+    height: 6em;
+	width: 13em;
+	font-size: 1.6em;
+	border-radius: 0.5em;
+}
+
+/*Especifidad: 10 -> a = 0 b = 1 c = 0*/
+.calculadora{
+	
+padding-top: 0.6em;
+	padding-bottom: 0.3em;
+	max-height: 36em;
+	max-width: 26em;
+	margin: auto;
+	background-color: #5F8CD8;
+	border-radius: 0.5em;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+form{
+	text-align:center;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+	margi: 10em;
+	
+	
+}
+
+/*Especifidad: 10 -> a = 0 b = 1 c = 0*/
+.mem{
+    background-color: grey; 
+	color:white;
+    width: 4em;
+	height: 2em;
+	font-size: 1.3em;
+	border-radius: 0.5em;
+}
+
+/*Especifidad: 10 -> a = 0 b = 1 c = 0*/
+.botones{
+	color:white;
+    background-color: lightgrey;
+    width: 4em;
+	height: 2em;
+	font-size: 1.3em;
+	border-radius: 0.5em;
+}
+
+/*Especifidad: 10 -> a = 0 b = 1 c = 0*/
+.operator{
+    background-color: tomato;
+    width: 4em;
+	height: 2em;
+	font-size: 1.3em;
+	border-radius: 0.5em;
+}
+
+/*Especifidad: 10 -> a = 0 b = 1 c = 0*/
+.ans{
+	background-color: lightgrey;
+    width: 4em;
+	height: 2em;
+	font-size: 1.3em;
+	border-radius: 0.5em;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+body{
+	background-color: #D07C47;	
+}
+
+input[type = text]{	
+	margin: auto;
+	padding-top: 0.3em;
+	padding-bottom: 0.3em;
+    	display: block;
+    	background: lightgreen;
+    	height: 2em;
+	width: 14em;
+	font-size: 0.8em;
+	border-radius: 0.5em;
+	text-align: right;
+}

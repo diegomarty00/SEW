@@ -1,0 +1,25 @@
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+body{
+    
+    background-color:white;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+h1{
+    color:red;
+	font-size: 2em
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+h2{
+    color:blue;
+	font-size: 1.8em
+}
+
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+p{
+    color:grey;
+    font-size: 0.9em
+}

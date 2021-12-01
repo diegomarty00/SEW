@@ -1,0 +1,23 @@
+/*Especifidad 1*/
+body{
+    background-color: lightgrey;
+    color: black;
+    text-align: center;
+    font-family: Helvetica, Verdana, sans-serif;
+}
+/*Especifidad 1*/
+h1{
+    text-align: center;
+    color: #8b4abf;
+}
+
+/*Especifidad 1*/
+ul{
+    text-align: left;
+}
+
+#mapa{
+        height: 800px;
+    width: auto;
+	margin: auto;
+}

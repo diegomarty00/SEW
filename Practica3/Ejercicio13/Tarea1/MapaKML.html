@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+	<meta name="author" content="Diego">
+    <meta name="description" content="Ejercicio13">
+    <meta name="keywords" content="Ejercicio13">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>KML to Map</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="MapaKML.css" />
+	<script src="MapaKML.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>KML to Map</h1>
+    </header>
+    <section id="mapa"></section>
+
+    <input type="file" id="cargarArchivo" onchange= "mapa.cargar(this.files)">
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0nond7_l3Zpm4KiFAqZiuiMaQb_3rqmc">
+    </script>
+</body>
+
+</html>

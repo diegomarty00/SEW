@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Diego">
+    <link rel="stylesheet" type="text/css" href="CalculadoraRPN.css" />
+    <script src = "CalculadoraRPN.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora RPN JavaScript</h1>
+    </header>
+
+    <section class="calculadora">
+
+		<form class="pantalla">
+			<div class="pan" id="pila"></div>
+			<input type = "text" class="pan" id = "valor"></input>
+		</form>
+		
+		 <form>
+			<input type="button" class="operator" id="botonElevar2" value="x^2" onclick= "calculadora.botonElevar2()"/>
+            <input type="button" class="operator" id="botonElevar" value="x^y" onclick= "calculadora.botonElevar()"/>
+            <input type="button" class="operator" id="botonSen" value="sin" onclick= "calculadora.botonSen()"/>
+			<input type="button" class="operator" id="botonCos" value="cos" onclick= "calculadora.botonCos()"/>
+            <input type="button" class="operator" id="botonTan" value="tan" onclick= "calculadora.botonTan()"/>    
+        </form>
+		
+        <form>
+			<input type="button" class="operator" id="botonRaiz" value="√" onclick= "calculadora.botonRaiz()"/>
+            <input type="button" class="operator" id="botonBase10" value="10^x" onclick= "calculadora.botonBase10()"/>
+            <input type="button" class="operator" id="botonLog" value="log" onclick= "calculadora.botonLog()"/>
+            <input type="button" class="operator" id="botonExp" value="Exp" onclick= "calculadora.botonExp()"/>
+            <input type="button" class="operator" id="botonMod" value="Mod" onclick= "calculadora.botonMod()"/>         
+        </form>
+		
+		<form>
+			<input type="button" class="operator" id="botonPi" value="π" onclick= "calculadora.botonPi()"/>
+            <input type="button" class="operator" id="botonLimpiar" value="CE" onclick= "calculadora.botonLimpiar()"/>
+            <input type="button" class="operator" id="botonBorrar" value="C" onclick= "calculadora.botonBorrar()"/>
+            <input type="button" class="operator" id="botonAtras" value="←" onclick= "calculadora.botonAtras()"/>
+            <input type="button" class="operator" id="botonDiv" value="/" onclick= "calculadora.botonDiv()"/>
+        </form>
+
+        <form>
+			<input type="button" class="operator" id="botonArcoseno" value="arcsin" onclick= "calculadora.botonArcoseno()"/>
+            <input type="button" class="botones" id="boton7" value="7" onclick= "calculadora.botonNumber(7)"/>
+            <input type="button" class="botones" id="boton8" value="8" onclick= "calculadora.botonNumber(8)"/>
+            <input type="button" class="botones" id="boton9" value="9" onclick= "calculadora.botonNumber(9)"/>
+            <input type="button" class="operator" id="botonMult" value="*" onclick= "calculadora.botonMult()"/>
+        </form>
+
+        <form>
+			<input type="button" class="operator" id="botonArcocoseno" value="arcocon" onclick= "calculadora.botonArcocoseno()"/>
+            <input type="button" class="botones" id="boton4" value="4" onclick= "calculadora.botonNumber(4)"/>
+            <input type="button" class="botones" id="boton5" value="5" onclick= "calculadora.botonNumber(5)"/>
+            <input type="button" class="botones" id="boton6" value="6" onclick= "calculadora.botonNumber(6)"/>
+            <input type="button" class="operator" id="botonRestar" value="-" onclick= "calculadora.botonRestar()"/>
+        </form>
+
+        <form>
+			<input type="button" class="operator" id="botonArcotangente" value="arcotan" onclick= "calculadora.botonArcotangente()"/>
+            <input type="button" class="botones" id="boton1" value="1" onclick= "calculadora.botonNumber(1)"/>
+            <input type="button" class="botones" id="boton2" value="2" onclick= "calculadora.botonNumber(2)"/>
+            <input type="button" class="botones" id="boton3" value="3" onclick= "calculadora.botonNumber(3)"/>
+            <input type="button" class="operator" id="botonSumar" value="+" onclick= "calculadora.botonSumar()"/>
+        </form>
+
+        <form>
+			<input type="button" class="operator" id="botonE" value="e" onclick= "calculadora.botonE()"/>
+			<input type="button" class="operator" id="botonPi" value="π" onclick= "calculadora.botonPi()"/>
+            <input type="button" class="botones" id="boton0" value="0" onclick= "calculadora.botonNumber(0)"/>
+            <input type="button" class="botones" id="botonDecimal" value="." onclick= "calculadora.botonDecimal()"/>    
+            <input type="button" class="ans" id="botonIgual" value="=" onclick= "calculadora.botonIgual()"/>
+        </form>
+    </section>
+</body>
+
+</html>

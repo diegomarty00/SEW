@@ -1,0 +1,95 @@
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+body{
+    background-color: lightgrey;
+    color: black;
+    text-align: center;
+    font-family: Helvetica, Verdana, sans-serif;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+h1, h2{
+    text-align: center;
+	 color: #8b4abf;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+header{
+    background-color: lightgreen;
+	border-radius: 1em;
+    padding: 0.5em;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+main {
+	padding-top: 3em;
+    display: flex;
+    align-self: auto;
+    flex-flow: row;
+    justify-content: center;
+	text-align:center;
+}
+
+
+script{
+	text-align:center;
+	
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+section {
+	text-align:center;
+    display:flex;
+    justify-content: center;
+    flex-flow: column;
+	border-radius: 1em;
+    background-color: lightgreen;
+	font-weight: bold;
+    margin: 2em 1em;
+    padding: 0em 1em;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+footer{
+    padding-top: 0.3em;
+    text-align: center;
+}
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+table {
+	
+	margin:auto;
+	border-radius: 5px;
+	background-color: #BB88DD;
+	text-align:center;
+}
+
+
+/*Especifidad: 3 -> a = 0 b = 0 c = 3*/
+table tr th {
+	
+	color: white;
+	font-size: 1.3em;
+	border-radius: 5px;
+	background-color: #8b4abf;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+td, th {
+    border: 0.1em solid black; 
+	padding: 4px 10px;
+    text-align:center;
+	color: black;
+    font-size: 1em; 
+	font-family: Times, Helveltica, serif;
+    line-height: 1.5; 
+}
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+td {
+	font-weight: bold;
+}
