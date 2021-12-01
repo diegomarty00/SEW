@@ -1,0 +1,338 @@
+<kml xmlns:kml="http://www.opengis.net/kml/2.2">
+   <Document>
+		    <Placemark>
+         <name>Avilés</name>
+         <Point>
+            <coordinates>-5.9356727474945785,43.551866960521636,27</coordinates>
+         </Point>
+      </Placemark> 
+
+				  <Placemark>
+         <name>Taujo</name>
+         <Point>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <coordinates>-5.8784909,43.4951982,242</coordinates>
+         </Point>
+         <Style>
+            <PointStyle>
+               <color>#40BF20</color>
+               <width>5</width>
+            </PointStyle>
+         </Style>
+      </Placemark>
+			
+				  <Placemark>
+         <name>Taujo</name>
+         <Point>
+            <coordinates>-5.8784909,43.4951982,242</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Taujo</name>
+         <Point>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <coordinates>-5.8784909,43.4951982,242</coordinates>
+         </Point>
+         <Style>
+            <PointStyle>
+               <color>#ff0000ff</color>
+               <width>5</width>
+            </PointStyle>
+         </Style>
+      </Placemark> 
+
+						<Placemark>
+         <name>Oviedo</name>
+         <Point>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <coordinates>-5.8666605,43.3589361,242</coordinates>
+         </Point>
+         <Style>
+            <PointStyle>
+               <color>#40BF20</color>
+               <width>5</width>
+            </PointStyle>
+         </Style>
+      </Placemark>
+      <Placemark>
+         <name>Villalbilla de Burgos</name>
+         <Point>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <coordinates>-3.7796129,42.3470908,839</coordinates>
+         </Point>
+         <Style>
+            <PointStyle>
+               <color>#ff0000ff</color>
+               <width>5</width>
+            </PointStyle>
+         </Style>
+      </Placemark>
+					 
+
+						<Placemark>
+         <name>Poniente - Gijón</name>
+         <Point>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <coordinates>-5.6748098,43.5412686,37</coordinates>
+         </Point>
+         <Style>
+            <PointStyle>
+               <color>#40BF20</color>
+               <width>5</width>
+            </PointStyle>
+         </Style>
+      </Placemark>
+      <Placemark>
+         <name>Villalbilla de Burgos</name>
+         <Point>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <coordinates>-3.696977,42.343926,873</coordinates>
+         </Point>
+         <Style>
+            <PointStyle>
+               <color>#ff0000ff</color>
+               <width>5</width>
+            </PointStyle>
+         </Style>
+      </Placemark>
+					
+			
+				  <Placemark>
+         <name>Avilés</name>
+         <Point>
+            <coordinates>-5.9356727474945785,43.551866960521636,27</coordinates>
+         </Point>
+      </Placemark>
+      <Placemark>
+         <name>Taujo</name>
+         <Point>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <coordinates>-5.8784909,43.4951982,242</coordinates>
+         </Point>
+         <Style>
+            <PointStyle>
+               <color>#ff0000ff</color>
+               <width>5</width>
+            </PointStyle>
+         </Style>
+      </Placemark> 
+
+						<Placemark>
+         <name>Ribera de Arriba</name>
+         <Point>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <coordinates>-5.877468,43.308778,202</coordinates>
+         </Point>
+         <Style>
+            <PointStyle>
+               <color>#40BF20</color>
+               <width>5</width>
+            </PointStyle>
+         </Style>
+      </Placemark>
+      <Placemark>
+         <name>Langreo</name>
+         <Point>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <coordinates>-5.680943,43.29384,281</coordinates>
+         </Point>
+         <Style>
+            <PointStyle>
+               <color>#ff0000ff</color>
+               <width>5</width>
+            </PointStyle>
+         </Style>
+      </Placemark>
+					 
+
+						<Placemark>
+         <name>Vigo</name>
+         <Point>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <coordinates>-8.699094,42.215907,117</coordinates>
+         </Point>
+         <Style>
+            <PointStyle>
+               <color>#40BF20</color>
+               <width>5</width>
+            </PointStyle>
+         </Style>
+      </Placemark>
+      <Placemark>
+         <name>Langreo</name>
+         <Point>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <coordinates>-5.680943,43.29384,281</coordinates>
+         </Point>
+         <Style>
+            <PointStyle>
+               <color>#ff0000ff</color>
+               <width>5</width>
+            </PointStyle>
+         </Style>
+      </Placemark>
+					
+			 
+
+				  <Placemark>
+         <name>Avilés</name>
+         <Point>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <coordinates>-5.9356727474945785,43.551866960521636,27</coordinates>
+         </Point>
+         <Style>
+            <PointStyle>
+               <color>#40BF20</color>
+               <width>5</width>
+            </PointStyle>
+         </Style>
+      </Placemark>
+				
+				  <Placemark>
+         <name>Grado</name>
+         <Point>
+            <coordinates>-6.0687347,43.3892839,103</coordinates>
+         </Point>
+      </Placemark> 
+
+						<Placemark>
+         <name>Lyon - Francia</name>
+         <Point>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <coordinates>4.835556,45.757215,174 </coordinates>
+         </Point>
+         <Style>
+            <PointStyle>
+               <color>#40BF20</color>
+               <width>5</width>
+            </PointStyle>
+         </Style>
+      </Placemark>
+      <Placemark>
+         <name>La Luz - Avilés</name>
+         <Point>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <coordinates>-5.9116909,43.5380267,136 </coordinates>
+         </Point>
+         <Style>
+            <PointStyle>
+               <color>#ff0000ff</color>
+               <width>5</width>
+            </PointStyle>
+         </Style>
+      </Placemark>
+					 
+
+						<Placemark>
+         <name>Lyon - Francia</name>
+         <Point>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <coordinates>4.835556,45.757215,174 </coordinates>
+         </Point>
+         <Style>
+            <PointStyle>
+               <color>#40BF20</color>
+               <width>5</width>
+            </PointStyle>
+         </Style>
+      </Placemark>
+      <Placemark>
+         <name>La Luz - Avilés</name>
+         <Point>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <coordinates>-5.9116909,43.5380267,136 </coordinates>
+         </Point>
+         <Style>
+            <PointStyle>
+               <color>#ff0000ff</color>
+               <width>5</width>
+            </PointStyle>
+         </Style>
+      </Placemark>
+					
+				
+				  <Placemark>
+         <name>Grado</name>
+         <Point>
+            <coordinates>-6.0687347,43.3892839,103</coordinates>
+         </Point>
+      </Placemark> 
+
+						<Placemark>
+         <name>Luanco</name>
+         <Point>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <coordinates>-5.795611,43.612212,202</coordinates>
+         </Point>
+         <Style>
+            <PointStyle>
+               <color>#40BF20</color>
+               <width>5</width>
+            </PointStyle>
+         </Style>
+      </Placemark>
+      <Placemark>
+         <name>Villaviciosa</name>
+         <Point>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <coordinates>-5.434205,43.483199 ,47</coordinates>
+         </Point>
+         <Style>
+            <PointStyle>
+               <color>#ff0000ff</color>
+               <width>5</width>
+            </PointStyle>
+         </Style>
+      </Placemark>
+					 
+					
+						<Placemark>
+         <name>Candas</name>
+         <Point>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <coordinates>-5.763823,43.589745 ,0</coordinates>
+         </Point>
+         <Style>
+            <PointStyle>
+               <color>#40BF20</color>
+               <width>5</width>
+            </PointStyle>
+         </Style>
+      </Placemark>
+      <Placemark>
+         <name>Villaviciosa</name>
+         <Point>
+            <extrude>1</extrude>
+            <tessellate>1</tessellate>
+            <coordinates>-5.434205,43.483199 ,47</coordinates>
+         </Point>
+         <Style>
+            <PointStyle>
+               <color>#ff0000ff</color>
+               <width>5</width>
+            </PointStyle>
+         </Style>
+      </Placemark>
+					
+			
+	  </Document>
+</kml>

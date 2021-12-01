@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas SYSTEM "personas.dtd">
+
+
+<personas>
+		<persona nombre="Diego" apellido1="Martínez" apellido2="Menéndez"> Hijo
+
+			<datos>
+				<fechaNac>2000-01-12</fechaNac>
+				<lugarNac>"Avilés"</lugarNac>
+				<coordenadasNac>
+					<longitud>-5.9356727474945785</longitud>
+					<latitud>43.551866960521636</latitud>
+					<altitud>27</altitud>
+				</coordenadasNac>
+				<foto>"https://ibb.co/W2fkg3W"</foto>
+				<comentario>"Estudiante de Informática"</comentario>
+			</datos>
+			
+			<persona nombre="Manuel Francisco" apellido1="Martínez" apellido2="González"> 
+
+				<datos>
+					<fechaNac>1965-03-04</fechaNac>
+					<lugarNac>"Taujo"</lugarNac>
+					<coordenadasNac>
+						<longitud>-5.8784909</longitud>
+						<latitud>43.4951982</latitud>
+						<altitud>242</altitud>
+					</coordenadasNac>
+					<foto>"https://etrambus.es/wp-content/uploads/2019/10/111177421m-1200x801.jpg"</foto>
+					<comentario>"Conductor de autobuses"</comentario>
+				</datos>
+			
+				<persona nombre="Manolo" apellido1="Martínez" apellido2="Fernández"> 
+
+					<datos>
+						<fechaNac>1921-06-02</fechaNac>
+						<lugarNac>"Taujo"</lugarNac>
+						<coordenadasNac>
+							<longitud>-5.8784909</longitud>
+							<latitud>43.4951982</latitud>
+							<altitud>242</altitud>
+						</coordenadasNac>
+						<fechaRIP>2013-04-23</fechaRIP>
+						<lugarRIP>"Taujo"</lugarRIP>
+						<coordenadasRIP>
+							<longitud>-5.8784909</longitud>
+							<latitud>43.4951982</latitud>
+							<altitud>242</altitud>
+						</coordenadasRIP>
+						<foto>"https://cloud10.todocoleccion.online/militaria-fotografia/tc/2014/12/26/15/46936839.jpg"</foto>
+						<comentario>"Ganadero"</comentario>
+					</datos>
+			
+					<persona nombre="María del Carmen" apellido1="Fernández" apellido2="Blanco"> 
+
+						<datos>
+							<fechaNac>1880-01-02</fechaNac>
+							<lugarNac>"Oviedo"</lugarNac>
+							<coordenadasNac>
+								<longitud>-5.8666605</longitud>
+								<latitud>43.3589361</latitud>
+								<altitud>242</altitud>
+							</coordenadasNac>
+							<lugarRIP>"Villalbilla de Burgos"</lugarRIP>
+							<coordenadasRIP>
+								<longitud>-3.7796129</longitud>
+								<latitud>42.3470908</latitud>
+								<altitud>839</altitud>
+							</coordenadasRIP>
+							<foto>"http://photos.demandstudios.com/getty/article/129/93/57416961.jpg"</foto>
+							<comentario>"No hay datos sobre esta persona"</comentario>
+						</datos>
+					</persona>
+			
+					<persona nombre="Juan Ramón" apellido1="Martínez" apellido2="Díaz"> 
+
+						<datos>
+							<fechaNac>1879-07-12</fechaNac>
+							<lugarNac>"Poniente - Gijón"</lugarNac>
+							<coordenadasNac>
+								<longitud>-5.6748098</longitud>
+								<latitud>43.5412686</latitud>
+								<altitud>37</altitud>
+							</coordenadasNac>
+							<lugarRIP>"Villalbilla de Burgos"</lugarRIP>
+							<coordenadasRIP>
+								<longitud>-3.696977</longitud>
+								<latitud>42.343926</latitud>
+								<altitud>873</altitud>
+							</coordenadasRIP>
+							<foto>"http://photos.demandstudios.com/getty/article/129/93/57416961.jpg"</foto>
+							<comentario>"No hay datos sobre esta persona"</comentario>
+						</datos>
+					</persona>
+				</persona>
+			
+				<persona nombre="María" apellido1="González" apellido2="Díaz"> 
+				
+					<datos>
+						<fechaNac>1923-04-04</fechaNac>
+						<lugarNac>"Avilés"</lugarNac>
+						<coordenadasNac>
+							<longitud>-5.9356727474945785</longitud>
+							<latitud>43.551866960521636</latitud>
+							<altitud>27</altitud>
+						</coordenadasNac>
+						<fechaRIP>2018-09-01</fechaRIP>
+						<lugarRIP>"Taujo"</lugarRIP>
+						<coordenadasRIP>
+							<longitud>-5.8784909</longitud>
+							<latitud>43.4951982</latitud>
+							<altitud>242</altitud>
+						</coordenadasRIP>
+						<foto>"http://photos.demandstudios.com/getty/article/129/93/57416961.jpg"</foto>
+						<comentario>"Ama de casa y ganadera"</comentario>
+					</datos>
+					
+					<persona nombre="Matías" apellido1="González" apellido2="Pérez"> 
+
+						<datos>
+							<fechaNac>1900-12-25</fechaNac>
+							<lugarNac>"Ribera de Arriba"</lugarNac>
+							<coordenadasNac>
+								<longitud>-5.877468</longitud>
+								<latitud>43.308778</latitud>
+								<altitud>202</altitud>
+							</coordenadasNac>
+							<lugarRIP>"Langreo"</lugarRIP>
+							<coordenadasRIP>
+								<longitud>-5.680943</longitud>
+								<latitud>43.29384</latitud>
+								<altitud>281</altitud>
+							</coordenadasRIP>
+							<foto>"http://photos.demandstudios.com/getty/article/129/93/57416961.jpg"</foto>
+							<comentario>"No hay datos sobre esta persona"</comentario>
+						</datos>
+					</persona>
+					
+					<persona nombre="Angelines" apellido1="Díaz" apellido2="Delgado"> 
+
+						<datos>
+							<fechaNac>1901-08-28</fechaNac>
+							<lugarNac>"Vigo"</lugarNac>
+							<coordenadasNac>
+								<longitud>-8.699094</longitud>
+								<latitud>42.215907</latitud>
+								<altitud>117</altitud>
+							</coordenadasNac>
+							<lugarRIP>"Langreo"</lugarRIP>
+							<coordenadasRIP>
+								<longitud>-5.680943</longitud>
+								<latitud>43.29384</latitud>
+								<altitud>281</altitud>
+							</coordenadasRIP>
+							<foto>"http://photos.demandstudios.com/getty/article/129/93/57416961.jpg"</foto>
+							<comentario>"No hay datos sobre esta persona"</comentario>
+						</datos>
+					</persona>
+				</persona>
+			</persona>
+			
+			<persona nombre="Ana María" apellido1="Menéndez" apellido2="Fernández"> 
+
+				<datos>
+					<fechaNac>1972-06-02</fechaNac>
+					<lugarNac>"Avilés"</lugarNac>
+					<coordenadasNac>
+						<longitud>-5.9356727474945785</longitud>
+						<latitud>43.551866960521636</latitud>
+						<altitud>27</altitud>
+					</coordenadasNac>
+					<foto>"https://www.cadenadial.com/wp-content/uploads/2016/09/teleoperadora.jpg"</foto>
+					<comentario>"Teleoperadora"</comentario>
+				</datos>
+				
+				<persona nombre="Lucía" apellido1="Fernández" apellido2="Fernández"> 
+
+					<datos>
+						<fechaNac>1952-12-13</fechaNac>
+						<lugarNac>"Grado"</lugarNac>
+						<coordenadasNac>
+							<longitud>-6.0687347</longitud>
+							<latitud>43.3892839</latitud>
+							<altitud>103</altitud>
+						</coordenadasNac>
+						<foto>"https://img.culturacolectiva.com/content_image/2020/12/22/1608657921376-abuelita4.001.jpeg"</foto>
+						<comentario>"Ama de casa"</comentario>
+					</datos>
+				
+					<persona nombre="Dario" apellido1="Fernández" apellido2="Marqués"> 
+
+						<datos>
+							<fechaNac>1922-10-13</fechaNac>
+							<lugarNac>"Lyon - Francia"</lugarNac>
+							<coordenadasNac>
+								<longitud>4.835556</longitud>
+								<latitud>45.757215</latitud>
+								<altitud>174 </altitud>
+							</coordenadasNac>
+							<lugarRIP>"La Luz - Avilés"</lugarRIP>
+							<coordenadasRIP>
+								<longitud>-5.9116909</longitud>
+								<latitud>43.5380267</latitud>
+								<altitud>136 </altitud>
+							</coordenadasRIP>
+							<foto>"http://photos.demandstudios.com/getty/article/129/93/57416961.jpg"</foto>
+							<comentario>"No hay datos sobre esta persona"</comentario>
+						</datos>
+					</persona>
+					
+					<persona nombre="Maria Dolores" apellido1="Fernández" apellido2="Álvarez"> 
+
+						<datos>
+							<fechaNac>1920-04-23</fechaNac>
+							<lugarNac>"Lyon - Francia"</lugarNac>
+							<coordenadasNac>
+								<longitud>4.835556</longitud>
+								<latitud>45.757215</latitud>
+								<altitud>174 </altitud>
+							</coordenadasNac>
+							<lugarRIP>"La Luz - Avilés"</lugarRIP>
+							<coordenadasRIP>
+								<longitud>-5.9116909</longitud>
+								<latitud>43.5380267</latitud>
+								<altitud>136 </altitud>
+							</coordenadasRIP>
+							<foto>"http://photos.demandstudios.com/getty/article/129/93/57416961.jpg"</foto>
+							<comentario>"No hay datos sobre esta persona"</comentario>
+						</datos>
+					</persona>
+				</persona>
+				
+				<persona nombre="Juan René" apellido1="Menéndez" apellido2="Díaz"> 
+
+					<datos>
+						<fechaNac>1948-01-31</fechaNac>
+						<lugarNac>"Grado"</lugarNac>
+						<coordenadasNac>
+							<longitud>-6.0687347</longitud>
+							<latitud>43.3892839</latitud>
+							<altitud>103</altitud>
+						</coordenadasNac>
+						<foto>"https://p0.pxfuel.com/preview/623/750/552/men-male-moustache-person.jpg"</foto>
+						<comentario>"ExMaquinista de trenes"</comentario>
+					</datos>
+					
+					<persona nombre="Paquito" apellido1="Menéndez" apellido2="Gutierrez"> 
+
+						<datos>
+							<fechaNac>1913-01-15</fechaNac>
+							<lugarNac>"Luanco"</lugarNac>
+							<coordenadasNac>
+								<longitud>-5.795611</longitud>
+								<latitud>43.612212</latitud>
+								<altitud>202</altitud>
+							</coordenadasNac>
+							<lugarRIP>"Villaviciosa"</lugarRIP>
+							<coordenadasRIP>
+								<longitud>-5.434205</longitud>
+								<latitud>43.483199 </latitud>
+								<altitud>47</altitud>
+							</coordenadasRIP>
+							<foto>"http://photos.demandstudios.com/getty/article/129/93/57416961.jpg"</foto>
+							<comentario>"No hay datos sobre esta persona"</comentario>
+						</datos>
+					</persona>
+					
+					<persona nombre="Manuela" apellido1="Díaz" apellido2="Morena"> 
+
+						<datos>
+							<fechaNac>1918-07-30</fechaNac>
+							<lugarNac>"Candas"</lugarNac>
+							<coordenadasNac>
+								<longitud>-5.763823</longitud>
+								<latitud>43.589745 </latitud>
+								<altitud>0</altitud>
+							</coordenadasNac>
+							<lugarRIP>"Villaviciosa"</lugarRIP>
+							<coordenadasRIP>
+								<longitud>-5.434205</longitud>
+								<latitud>43.483199 </latitud>
+								<altitud>47</altitud>
+							</coordenadasRIP>
+							<foto>"http://photos.demandstudios.com/getty/article/129/93/57416961.jpg"</foto>
+							<comentario>"No hay datos sobre esta persona"</comentario>
+						</datos>
+					</persona>
+				</persona>
+			</persona>
+		</persona>
+	</personas>
