@@ -4,7 +4,7 @@ h1{
     text-align: center;
 }
 
-/*Especifidad: 100 -> a = 1 b = 0 c = 0*/
+/*Especifidad: 10 -> a = 1 b = 1 c = 0*/
 .pantalla{
     margin: auto;
     display: block;
@@ -38,7 +38,7 @@ form{
 
 /*Especifidad: 10 -> a = 0 b = 1 c = 0*/
 .mem{
-    background-color: grey; 
+    background-color: black; 
 	color:white;
     width: 4em;
 	height: 2em;
@@ -48,7 +48,7 @@ form{
 
 /*Especifidad: 10 -> a = 0 b = 1 c = 0*/
 .botones{
-	color:white;
+	color:black;
     background-color: lightgrey;
     width: 4em;
 	height: 2em;
@@ -67,7 +67,7 @@ form{
 
 /*Especifidad: 10 -> a = 0 b = 1 c = 0*/
 .ans{
-	background-color: lightgrey;
+	background-color: orange;
     width: 4em;
 	height: 2em;
 	font-size: 1.3em;
@@ -79,6 +79,7 @@ body{
 	background-color: #D07C47;	
 }
 
+/*Especifidad: 10 -> a = 0 b = 1 c = 0*/
 .pan{	
 	border: 0.2em solid lightgreen;
 	margin: auto;
@@ -94,6 +95,7 @@ body{
 	
 } 
 
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
  ul{
      list-style: none;
      padding: 0;
@@ -101,7 +103,7 @@ body{
  }
 
 
-
+/*Especifidad: 100 -> a = 1 b = 0 c = 0*/
 #pila{
     overflow-y: scroll;
 	height: 5em;

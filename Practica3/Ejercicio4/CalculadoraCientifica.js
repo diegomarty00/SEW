@@ -150,8 +150,8 @@ class CalculadoraBasica {
     }
 	
 	sustituirPantalla(){
-		if (valor.value == "Syntax Error" || valor.value == "0")
-			valor.value = "";
+		if (document.getElementById("valor").value == "Syntax Error" || document.getElementById("valor").value == "0")
+			document.getElementById("valor").value = "";
 	}
 }
 
