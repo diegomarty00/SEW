@@ -1,0 +1,36 @@
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+body{
+    
+    background-color:white;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+h1{
+    color:red;
+	font-size: 2em
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+h2,h3,h4{
+    color:green;
+	font-size: 1.1em
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+h5{
+    color:blue;
+	font-size: 1.5em
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+p{
+    color:black;
+	font-size: 0.9em
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+ul{
+    color:grey;
+	font-size: 1em
+}

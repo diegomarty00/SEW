@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+	<meta name="author" content="Diego">
+    <meta name="description" content="Ejercicio12">
+    <meta name="keywords" content="Ejercicio12">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Ejercicio12</title>
+    <link rel="stylesheet" type="text/css" href="Ejercicio12.css" />
+	<script src="Ejercicio12.js"></script>
+</head>
+
+<body>
+    <h1>HTML5 File</h1>
+    <section id = 'infoArchivo'>
+		<h2>Selecciona un archivo</h2>
+    </section>
+    <p id = 'contenido'></p>
+    <input type="file" id="cargarArchivo" value="Cargar archivo" onchange="fileUtil.cargar(this.files)"/>      
+</body>
+
+</html>

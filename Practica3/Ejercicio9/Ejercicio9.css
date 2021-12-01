@@ -1,0 +1,53 @@
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+body{
+    background-color: lightgrey;
+    color: black;
+    text-align: center;
+    font-family: Helvetica, Verdana, sans-serif;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+h1, h2{
+    text-align: center;
+	 color: #8b4abf;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+header{
+    background-color: lightgreen;
+	border-radius: 1em;
+    padding: 0.5em;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+main {
+    display: flex;
+    align-self: auto;
+    flex-flow: row;
+    justify-content: center;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+section {
+    display:flex;
+    justify-content: center;
+    flex-flow: column;
+	border-radius: 1em;
+    background-color: lightgreen;
+	font-weight: bold;
+    margin: 2em 1em;
+    padding: 0em 1em;
+}
+
+/*Especifidad: 2 -> a = 0 b = 0 c = 2*/
+section > img{
+    align-self: center;
+    transform: scale(2);
+}
+
+/*Especifidad: 2 -> a = 0 b = 0 c = 2*/
+ul li{
+    margin-bottom: 0.7em;
+    font-family: Helvetica, Verdana, sans-serif;
+    font-size: 0.7em;
+}

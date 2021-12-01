@@ -1,0 +1,197 @@
+<kml xmlns:kml="http://www.opengis.net/kml/2.2">
+   <Document>
+		    <Placemark>
+         <name>Avilés</name>
+         
+            <coordinates>-5.9356727474945785,43.551866960521636,27</coordinates>
+         
+      </Placemark> 
+
+				  <Placemark>
+         <name>Taujo</name>
+         
+            <coordinates>-5.8784909,43.4951982,242</coordinates>
+         
+              
+      </Placemark>
+			
+				  <Placemark>
+         <name>Taujo</name>
+         
+            <coordinates>-5.8784909,43.4951982,242</coordinates>
+         
+      </Placemark>
+      <Placemark>
+         <name>Taujo</name>
+         
+            <coordinates>-5.8784909,43.4951982,242</coordinates>
+         
+      </Placemark> 
+
+						<Placemark>
+         <name>Oviedo</name>
+         
+            <coordinates>-5.8666605,43.3589361,242</coordinates>
+         
+
+      </Placemark>
+      <Placemark>
+         <name>Villalbilla de Burgos</name>
+         
+            <coordinates>-3.7796129,42.3470908,839</coordinates>
+         
+
+      </Placemark>
+					 
+
+						<Placemark>
+         <name>Poniente - Gijón</name>
+         
+            <coordinates>-5.6748098,43.5412686,37</coordinates>
+         
+               
+      </Placemark>
+      <Placemark>
+         <name>Villalbilla de Burgos</name>
+         
+            <coordinates>-3.696977,42.343926,873</coordinates>
+         
+              
+      </Placemark>
+					
+			
+				  <Placemark>
+         <name>Avilés</name>
+         
+            <coordinates>-5.9356727474945785,43.551866960521636,27</coordinates>
+         
+      </Placemark>
+      <Placemark>
+         <name>Taujo</name>
+         
+            <coordinates>-5.8784909,43.4951982,242</coordinates>
+         
+              
+      </Placemark> 
+
+						<Placemark>
+         <name>Ribera de Arriba</name>
+         
+            <coordinates>-5.877468,43.308778,202</coordinates>
+         
+               
+      </Placemark>
+      <Placemark>
+         <name>Langreo</name>
+         
+            <coordinates>-5.680943,43.29384,281</coordinates>
+         
+              
+      </Placemark>
+					 
+
+						<Placemark>
+         <name>Vigo</name>
+         
+            <coordinates>-8.699094,42.215907,117</coordinates>
+         
+               
+      </Placemark>
+      <Placemark>
+         <name>Langreo</name>
+         
+            <coordinates>-5.680943,43.29384,281</coordinates>
+         
+              
+      </Placemark>
+					
+			 
+
+				  <Placemark>
+         <name>Avilés</name>
+         
+            <coordinates>-5.9356727474945785,43.551866960521636,27</coordinates>
+         
+               
+      </Placemark>
+				
+				  <Placemark>
+         <name>Grado</name>
+         
+            <coordinates>-6.0687347,43.3892839,103</coordinates>
+         
+      </Placemark> 
+
+						<Placemark>
+         <name>Lyon - Francia</name>
+         
+            <coordinates>4.835556,45.757215,174 </coordinates>
+         
+               
+      </Placemark>
+      <Placemark>
+         <name>La Luz - Avilés</name>
+         
+            <coordinates>-5.9116909,43.5380267,136 </coordinates>
+         
+              
+      </Placemark>
+					 
+
+						<Placemark>
+         <name>Lyon - Francia</name>
+         
+            <coordinates>4.835556,45.757215,174 </coordinates>
+         
+               
+      </Placemark>
+      <Placemark>
+         <name>La Luz - Avilés</name>
+         
+            <coordinates>-5.9116909,43.5380267,136 </coordinates>
+         
+              
+      </Placemark>
+					
+				
+				  <Placemark>
+         <name>Grado</name>
+         
+            <coordinates>-6.0687347,43.3892839,103</coordinates>
+         
+      </Placemark> 
+
+						<Placemark>
+         <name>Luanco</name>
+         
+            <coordinates>-5.795611,43.612212,202</coordinates>
+         
+               
+      </Placemark>
+      <Placemark>
+         <name>Villaviciosa</name>
+         
+            <coordinates>-5.434205,43.483199 ,47</coordinates>
+         
+              
+      </Placemark>
+					 
+					
+						<Placemark>
+         <name>Candas</name>
+         
+            <coordinates>-5.763823,43.589745 ,0</coordinates>
+         
+               
+      </Placemark>
+      <Placemark>
+         <name>Villaviciosa</name>
+         
+            <coordinates>-5.434205,43.483199 ,47</coordinates>
+         
+              
+      </Placemark>
+					
+			
+	  </Document>
+</kml>
