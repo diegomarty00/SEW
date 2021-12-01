@@ -33,6 +33,7 @@ main {
 	
 }
 
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
 footer {
   position: absolute;
   bottom: 0;
@@ -52,6 +53,7 @@ td, th {
 	font-family: Times, Helveltica, serif;
     line-height: 1.5; 
 }
+
 /*Especifidad: 1 -> a = 0 b = 0 c = 1*/
 td {
 	font-weight: bold;

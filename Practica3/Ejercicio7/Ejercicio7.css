@@ -83,7 +83,6 @@ nav {
 /*Especifidad: 2 -> a = 0 b = 0 c = 2*/
 nav a {
   	display: inline-block;
- 	float:center;
   	color: white;
   	padding: 0.8em 1em;
   	text-decoration: none;

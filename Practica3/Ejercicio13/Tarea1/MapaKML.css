@@ -7,12 +7,6 @@ body{
 }
 
 /*Especifidad: 1 -> a = 0 b = 0 c = 1*/
-body{
-    font-family: Helvetica, Verdana, sans-serif;
-    color: black;
-}
-
-/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
 h1, h2{
     text-align: center;
 	 color: #8b4abf;

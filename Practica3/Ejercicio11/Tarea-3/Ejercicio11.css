@@ -1,17 +1,17 @@
-/*Especifidad 1*/
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
 body{
     background-color: lightgrey;
     color: black;
     text-align: center;
     font-family: Helvetica, Verdana, sans-serif;
 }
-/*Especifidad 1*/
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
 h1{
     text-align: center;
     color: #8b4abf;
 }
 
-/*Especifidad 1*/
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
 ul{
     text-align: left;
 }
