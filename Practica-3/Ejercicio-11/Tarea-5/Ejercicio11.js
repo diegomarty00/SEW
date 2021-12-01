@@ -5,7 +5,6 @@ mapa.init = function(){
 	var pueblo = {lat: 43.4951982, lng: -5.8784909};
 	
 	var mapa = new google.maps.Map(document.getElementById('mapa'),{zoom: 12, center:pueblo});
-	var marcador = new google.maps.Marker({position:pueblo,map:miPueblo});
 	 
 	infoWindow = new google.maps.InfoWindow;
 	
