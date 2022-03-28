@@ -1,0 +1,114 @@
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+html {
+    box-sizing: border-box;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+body {
+    position: relative;
+    padding-bottom: 10em;
+    min-height: 100%;
+    max-height: 100%;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    text-align: center;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+h1 {
+    font-size: x-large;
+	font-family:Verdana,sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+h2, h3, h4, h5, h6, h7, h8, h9, h10, h11 {
+    text-transform: uppercase;
+	font-family:Verdana,sans-serif;
+    padding-top: 1em;
+}
+
+//*Especifidad: 10 -> a = 0 b = 1 c = 0*/
+[for="pantalla"] { 
+    display: none;
+    color: white;
+    
+    background-color: black;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+*:after {
+    box-sizing: inherit;
+}
+
+//*Especifidad: 11 -> a = 0 b = 1 c = 1*/
+input[type=text] {
+      width: 50%;
+      padding: 5px 10px;
+      font-size: 16px;
+      margin: 1px 0;
+      border: 1px solid silver;
+      border-radius: 1px;
+      text-align: left;
+      color: black;
+      background: white;
+}
+   
+//*Especifidad: 11 -> a = 0 b = 1 c = 1*/
+input[type=button], input[type=submit], input[type=reset] {
+      
+      border: none;
+      
+      padding: 10px 32px;
+      font-size: 16px;
+      min-width: 16%;
+      text-decoration: none;
+      margin: 2px 2px;
+      cursor: pointer;
+      background-color: #917940;
+      color:white;
+  }
+
+//*Especifidad: 21 -> a = 0 b = 2 c = 1*/
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #E3BE68;
+    color:black;
+  }
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+  form{
+      text-align: center;
+  }
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+nav {
+  overflow: hidden;
+  background-color: #917940;
+  color: white;
+  text-align: center;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 2*/
+nav a {
+  float: left;
+  background-color: inherit;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*Especifidad: 12 -> a = 0 b = 1 c = 2*/
+nav a:hover {
+    background-color: #E3BE68;
+    color:black;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+section{
+    background-color: lightgrey;
+    color: black;
+}

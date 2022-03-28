@@ -1,0 +1,54 @@
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+body{
+    background-color: #EEB449; 
+    text-align: center;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+h1{
+    font-family:Verdana,sans-serif;
+    font-weight: bold;
+    font-size: 3.75em;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: initial;
+    align-items: center;
+    border-radius: 2em;
+    background-color:  #362E2E; 
+    margin: auto;
+    width: 130%;
+    max-width: 32em;
+}
+
+/*Especifidad: 11 -> a = 0 b = 1 c = 1*/
+input[type = text]{
+    width: 24.5em;
+    height: 3em;
+    font-family: Tahoma,sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    border: 0.2em solid black;
+    background-color: lightgray;
+ }
+
+/*Especifidad: 11 -> a = 0 b = 1 c = 1*/
+input[type = submit]{
+   width: 4em;
+   height: 3em;
+   font-family: Tahoma,sans-serif;
+   font-weight: bold;
+   font-size: 1.1em;
+   border: 0.2em solid black;
+   border-radius: 1em;
+}
+
+/*Especifidad: 1 -> a = 0 b = 0 c = 1*/
+p{
+    font-family: Tahoma,sans-serif;
+    font-size: 1.1em;
+}
